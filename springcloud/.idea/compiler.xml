@@ -8,12 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server7002" />
-        <module name="cloud-api-commons" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
+        <module name="gateway" />
         <module name="cloud-consumer-order80" />
+        <module name="cloud-gateway-gateway9537" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-gateway-gateway9527" target="1.8" />
+      <module name="cloud-gateway-gateway9537" target="1.8" />
+      <module name="gateway9537" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-gateway-gateway9527" options="-parameters" />
+      <module name="gateway9537" options="" />
+    </option>
   </component>
 </project>
