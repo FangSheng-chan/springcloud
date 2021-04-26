@@ -4,14 +4,14 @@
 <mapper namespace="com.ss.springcloud.dao.PaymentDao">
     <resultMap id="BaseResultMap" type="com.ss.springcloud.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
-        <id column="serial" property="serial" jdbcType="VARCHAR"/>
+        <result column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>
 
     <insert id="create" parameterType="com.ss.springcloud.entities.Payment" useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial)  values (#{serial});
     </insert>
 
-    <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap">
+    <select id="getPaymentById" parameterType="long" resultMap="BaseResultMap">
         select * from payment where id=#{id};
     </select>
 </mapper>

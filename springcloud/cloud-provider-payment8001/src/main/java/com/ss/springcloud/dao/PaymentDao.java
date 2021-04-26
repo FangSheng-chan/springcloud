@@ -10,7 +10,7 @@ public interface PaymentDao {
 
     public int create(Payment payment);
 
-    public Payment getPaymentById(@Param("id") Long id);
+    public Payment getPaymentById(@Param("id") long id);
 
 
 }
