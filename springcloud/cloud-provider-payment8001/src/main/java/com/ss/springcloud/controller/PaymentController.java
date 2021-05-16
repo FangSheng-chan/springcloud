@@ -1,13 +1,14 @@
 package com.ss.springcloud.controller;
 
 
-import com.netflix.discovery.DiscoveryClient;
+
 import com.ss.springcloud.entities.CommonResult;
 import com.ss.springcloud.entities.Payment;
 import com.ss.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -32,6 +33,7 @@ public class PaymentController {
         return "hello";
     }
 
+
     @PostMapping(value = "/payment/create")
     public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
@@ -55,19 +57,19 @@ public class PaymentController {
         }
     }
 
-//    @GetMapping(value = "/payment/discover")
-//    public Object discovery(){
-//        List<String> services = discoveryClient.getServices();
-//        for (String element:services) {
-//            log.info("****element:"+element);
-//        }
-//
-//        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
-//        for (ServiceInstance serviceInstance:instances) {
-//            log.info(serviceInstance.getServiceId()+"\t"+serviceInstance.getHost()+"\t"+serviceInstance.getPort()+"\t"+serviceInstance.getUri());
-//        }
-//        return discoveryClient;
-//    }
+    @GetMapping(value = "/payment/discover")
+    public Object discovery(){
+        List<String> services = discoveryClient.getServices();
+        for (String element:services) {
+            log.info("****element:"+element);
+        }
+
+        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+        for (ServiceInstance serviceInstance:instances) {
+            log.info(serviceInstance.getServiceId()+"\t"+serviceInstance.getHost()+"\t"+serviceInstance.getPort()+"\t"+serviceInstance.getUri());
+        }
+        return discoveryClient;
+    }
 
     @RequestMapping("/payment/lb")
     public  String getPaymentLB(){
