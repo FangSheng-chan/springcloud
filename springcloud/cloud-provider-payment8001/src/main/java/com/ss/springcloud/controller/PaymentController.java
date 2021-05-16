@@ -1,14 +1,17 @@
 package com.ss.springcloud.controller;
 
 
+import com.netflix.discovery.DiscoveryClient;
 import com.ss.springcloud.entities.CommonResult;
 import com.ss.springcloud.entities.Payment;
 import com.ss.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 
 @RestController
@@ -20,6 +23,9 @@ public class PaymentController {
 
     @Value("${server.port}")
     private String serverPort;
+
+    @Resource
+    private DiscoveryClient discoveryClient;
 
     @RequestMapping("/hello")
     public String hello(){
@@ -48,7 +54,7 @@ public class PaymentController {
             return new CommonResult(444, "查询失败,查询ID:"+id, null);
         }
     }
-//
+
 //    @GetMapping(value = "/payment/discover")
 //    public Object discovery(){
 //        List<String> services = discoveryClient.getServices();
