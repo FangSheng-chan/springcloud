@@ -22,21 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2396c8a-5316-41f1-8334-c7cc64602b37" name="Default Changelist" comment="five">
+    <list default="true" id="f2396c8a-5316-41f1-8334-c7cc64602b37" name="Default Changelist" comment="9">
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/ss/springcloud/OrderZK80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/ss/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/ss/springcloud/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/ss/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/ss/springcloud/controller/PaymentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/ss/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/ss/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/cloudalibaba-consumer-nacos-order83.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586862501098" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,11 +118,15 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ss.springcloud.filter" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java" />
+      <recent name="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources" />
+      <recent name="$PROJECT_DIR$/cloud-provider-payment8004/src/main" />
       <recent name="$PROJECT_DIR$/cloud-gateway-gateway9537/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.ss.springcloud.filter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +136,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
+  <component name="RunManager" selected="Spring Boot.PaymentMain8004">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ss.springcloud.EurekaMain7001" />
@@ -203,8 +219,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ss.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ss.springcloud.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PaymentMain8004" />
         <item itemvalue="Spring Boot.GateWayMain" />
       </list>
     </recent_temporary>
@@ -231,7 +261,7 @@
       <workItem from="1620284667644" duration="489000" />
       <workItem from="1620285216938" duration="595000" />
       <workItem from="1620285821290" duration="182000" />
-      <workItem from="1621169862788" duration="414000" />
+      <workItem from="1621169862788" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="five">
       <created>1599704441538</created>
@@ -240,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599704441538</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="9">
+      <created>1621177155342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621177155342</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +298,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="five" />
-    <option name="LAST_COMMIT_MESSAGE" value="five" />
+    <MESSAGE value="9" />
+    <option name="LAST_COMMIT_MESSAGE" value="9" />
   </component>
 </project>

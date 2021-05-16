@@ -11,12 +11,14 @@
         <module name="cloud-gateway-gateway9537" />
         <module name="cloudalibaba-provider-payment9002" />
         <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloud-provider-payment8004" />
         <module name="cloud-eureka-server7001" />
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-consumer-order80" />
         <module name="gateway" />
+        <module name="cloud-consumerzk-order80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
