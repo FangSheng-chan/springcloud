@@ -6,7 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-// applicationContext.xml =>  <bean id="" class = "">
+/**
+ * applicationContext.xml =>  <bean id="" class = "">
+ * @author ss
+ */
 @Configuration
 public class ApplicationContextConfig {
 
