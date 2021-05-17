@@ -17,4 +17,13 @@ public class CommonResult<T> {
     public CommonResult(Integer code, String message) {
         this(code, message, null);
     }
+
+    @Override
+    public String toString() {
+        return "CommonResult{" +
+                "code=" + code +
+                ", message='" + message + '\'' +
+                ", data=" + data +
+                '}';
+    }
 }
