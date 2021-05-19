@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springcloud/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/springcloud/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" filepath="$PROJECT_DIR$/springcloud/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/cloud-consumer-order80/cloud-consumer-order80.iml" filepath="$PROJECT_DIR$/springcloud/cloud-consumer-order80/cloud-consumer-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/cloud-consumerConsul-order80/cloud-consumerConsul-order80.iml" filepath="$PROJECT_DIR$/springcloud/cloud-consumerConsul-order80/cloud-consumerConsul-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" filepath="$PROJECT_DIR$/springcloud/cloud-consumerzk-order80/cloud-consumerzk-order80.iml" />
