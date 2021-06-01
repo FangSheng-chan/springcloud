@@ -13,11 +13,18 @@ import reactor.core.publisher.Mono;
 import java.util.Date;
 
 /**
+ * 自定义过滤器
  * @author ss
  */
 @Component
 @Slf4j
 public class MyLogGateWayFilter implements GlobalFilter, Ordered {
+    /**
+     * Mono 想相当ModelAndView
+     * @param exchange
+     * @param chain
+     * @return
+     */
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         log.info("****come in MyLogGateWayFilter:  " + new Date());
