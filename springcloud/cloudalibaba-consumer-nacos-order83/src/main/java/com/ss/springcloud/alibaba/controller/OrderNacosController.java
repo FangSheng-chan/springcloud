@@ -8,6 +8,9 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
+/**
+ * @author ss
+ */
 @RestController
 public class OrderNacosController {
 
