@@ -3,6 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springcloud/cloud-api-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloud-api-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloud-config-center-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloud-config-center-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloud-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloud-config-client-3355/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloud-consumer-feign-hystrix-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloud-consumer-feign-hystrix-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloud-consumer-feign-order80/src/main/java" charset="UTF-8" />
@@ -27,12 +31,16 @@
     <file url="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8006/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloud-provider-payment8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-config-nacos-client3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-config-nacos-client3377/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-consumer-nacos-order83/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-consumer-nacos-order83/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-provider-payment9001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-provider-payment9001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-provider-payment9002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-provider-payment9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-sentinel-service8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud/cloudalibaba-sentinel-service8401/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud/gateway/src/main/resources" charset="UTF-8" />
   </component>
